@@ -10,7 +10,7 @@ app.whenReady().then(() => {
     minWidth: 800,
     minHeight: 600,
     frame: false,
-    icon: __dirname + '/static/chatgpt.ico',
+    icon: __dirname + '/static/github.ico',
     autoHideMenuBar: true,
     webPreferences: {
       webviewTag: true,

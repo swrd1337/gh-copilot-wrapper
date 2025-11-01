@@ -1,12 +1,12 @@
 {
-  "name": "chatgpt-wrapper",
+  "name": "gh-copilot-wrapper",
   "version": "1.0.0",
-  "description": "Electron wrapper for ChatGPT with a little customization.",
+  "description": "Electron wrapper for GitHub Copilot with a little customization.",
   "main": "index.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-win": "electron-packager . chatgpt --platform=win32 --arch=x64 --icon=./static/chatgpt.ico --overwrite"
+    "compile-win": "electron-packager . copilot --platform=win32 --arch=x64 --icon=./static/github.ico --overwrite"
   },
   "author": "swrd1337",
   "license": "MIT",
