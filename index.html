@@ -7,9 +7,11 @@
     <title>ChatGPT</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <div class="app-bar"></div>
+    <div class="app-bar">
+      <button id="back-button" class="nav-button" title="Go Back">&lt;</button>
+    </div>
     <webview class="app-container" src="https://github.com/copilot"></webview>
+    <script src="renderer.js"></script>
   </body>
 </html>

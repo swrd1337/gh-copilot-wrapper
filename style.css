@@ -9,8 +9,36 @@ body {
 .app-bar {
   -webkit-app-region: drag;
   display: flex;
-  justify-content: end;
+  justify-content: start;
+  align-items: center;
   height: 32px;
+  gap: 5px;
+  padding: 0 10px;
+}
+
+.nav-button {
+  -webkit-app-region: no-drag;
+  width: 24px;
+  height: 24px;
+  background-color: #2a2a2a;
+  color: #b3b3b3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.nav-button:hover:not(:disabled) {
+  background-color: #3a3a3a;
+}
+
+.nav-button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
 
 .app-container {
