@@ -30,8 +30,8 @@ jobs:
       - name: Archive Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: chatgpt-windows
-          path: chatgpt-win32-x64/
+          name: copilot-windows
+          path: copilot-win32-x64/
 
       - name: Create ZIP file
         run: |
@@ -44,8 +44,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v0.1.5
-          name: Release v0.1.5
+          tag_name: v0.1.6
+          name: Release v0.1.6
           draft: false
           prerelease: false
           files: ./copilot-win32-x64.zip

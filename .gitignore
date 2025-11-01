@@ -129,4 +129,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-/chatgpt-win32-x64
+/copilot-win32-x64
