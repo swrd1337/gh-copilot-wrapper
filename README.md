@@ -1,2 +1,2 @@
-# chatgpt-wrapper
-Electron wrapper for ChatGPT
+# gh-copilot-wrapper
+Electron wrapper for GitHub Copilot Chat
